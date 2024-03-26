@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(Rectangle.jpg);
+}
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header_logo {
+  padding: 48px 121px;
+  display: flex;
+  justify-content: space-between;
+}
+.header_list {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.header_item {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 131%;
+  text-align: right;
+  color: #242a45;
+}
+.header_link {
+  padding: 12px 34px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 131%;
+  text-align: right;
+  color: #fff;
+  box-shadow: 0 8px 8px -4px rgba(73, 93, 207, 0.2);
+  background-color: #fa5959;
+  border-radius: 5px;
+}
+.header_link:hover {
+  background-color: blue;
+  color: #000;
+}
+.main {
+  background-image: url(../img/icon4.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+.main_block {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.main_title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 108%;
+  color: #242a45;
+}
+.main_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #242a45;
+  opacity: 0.5;
+}
+.main_btn {
+  box-shadow: 0 8px 8px -4px rgba(73, 93, 207, 0.2);
+  background-color: #5267df;
+  border-radius: 5px;
+  padding: 10px 24px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 200%;
+  color: #fff;
+}
+.main_btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.main_button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 200%;
+  color: #4e515e;
+  opacity: 0.75;
+  padding: 10px 24px;
+  box-shadow: 0 8px 8px -4px rgba(73, 93, 207, 0.2);
+  background: #f7f7f7;
+}
+.main_button:hover {
+  background-color: #45f500;
+  color: #000;
+}
+.hero_title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 162%;
+  text-align: center;
+  color: #242a45;
+}
+.hero_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  text-align: center;
+  color: #242a45;
+  opacity: 0.5;
+}
+.box {
+  background-image: url(../img/icon5.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.box_title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 162%;
+  letter-spacing: 0em;
+  color: #242a45;
+  justify-content: space-between;
+}
+.box_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: #242a45;
+  opacity: 0.5;
+  margin-top: 20px;
+}
+.box_block {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+}
+.box_content {
+  display: flex;
+  align-items: center;
+}
+.box_block_text {
+  margin-left: 140px;
+}
+.box_link {
+  box-shadow: 0 8px 8px -4px rgba(73, 93, 207, 0.2);
+  background-color: #5267df;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 200%;
+  color: #fff;
+  padding: 10px 24px;
+}
+.box_link:hover {
+  background-color: crimson;
+  color: #000;
+}
+.dowload_block {
+  padding: 149px;
+}
+.dowload_title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 162%;
+  text-align: center;
+  color: #242a45;
+}
+.dowload_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  text-align: center;
+  color: #242a45;
+  opacity: 0.5;
+}
+.dowload_card {
+  width: 280px;
+  height: 371px;
+  box-shadow: 0 10px 20px -5px rgba(73, 93, 207, 0.2);
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+}
+.dowload_chrome_title {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #242a45;
+}
+.dowload_chrome_text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 187%;
+  text-align: center;
+  color: #242a45;
+  opacity: 0.5;
+  padding: 10px;
+}
+.dowload_chrome_link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 200%;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 8px 8px -4px rgba(73, 93, 207, 0.2);
+  background: #5267df;
+  border-radius: 5px;
+  padding: 10px 35px;
+}
+.dowload_chrome_img {
+  padding: 50px;
+}
+.dowload_block_card {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 70px;
+  margin-top: 60px;
+}
+.dowload_chrome_link:hover {
+  background-color: yellow;
+  color: green;
+}
